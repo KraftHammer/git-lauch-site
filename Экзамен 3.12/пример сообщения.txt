@@ -1,0 +1,26 @@
+                    <section class="main__message">
+                        <div class="search">
+                            <img src="./assets/лупа.svg" alt="">
+                            <p>Поиск...</p>
+                        </div>
+                        <hr>
+
+<div class="profile__message">
+                            <div class="profile__message-logo">
+                                <img src="images/User_circle.svg">
+                            </div>
+                            <div class="description">
+                                <div class="description__up">
+                                    <p>Павел Суров</p>
+                                    <p>9:14</p>
+                                </div>
+                                <div class="description__down">
+                                    <div class="desc__left">
+
+                                        <p>а у меня автомат😎</p>
+                                    </div>
+                                        <h4 class="message_bob" style="color: white;">3</h4>                                       
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="nostyle">

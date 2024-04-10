@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    padding-top: 7px;
+}
+
+hr{
+    border: 2px solid #000;
+}
+
+.nostyle{
+    border: 1px solid #000;
+}
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    border: 3px solid #000;
+    padding: 10px 25px;
+}
+
+.header__stroka{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid #000;
+    border-left: none;
+    border-right: none;
+    padding: 10px 20px;
+}
+
+.header__mypage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    border: 3px solid #000;
+    padding: 10px 25px;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.main{
+    position: relative;
+    padding: 50px 20px;
+}
+
+.post_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.main__menu{
+    width: 350px;
+    height: 250px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
+}
+
+.main__message{
+    flex: 2;
+    border: 3px solid #000;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.profile__message{
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.description__up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description__down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.desc__left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__chats{
+    width: 350px;
+    height: 250px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.message__text{
+    background-color: #707070;
+}
+
+.kot{
+    position: absolute;
+    right: 15px;
+    bottom: -450px;
+}
+
+.setting__menu{
+    position: absolute;
+    bottom: -450px;
+    left: 30px;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu__list-item{
+    list-style-type: none;
+}
+
+.menu__list-item a{
+    text-decoration: none;
+    color: #707070;
+}
